@@ -9,12 +9,12 @@
     <meta name="description" content="Sérgio Nóbrega&#39;s personal website">
     <meta name="keywords" content="blog,developer,personal">
 
-    <base href="https://sernobrega.github.io">
+    <base href="https://sernobrega.com">
     <title>
-  (Hu)go Template Primer · tryhard
+  (Hu)go Template Primer · Sérgio Nóbrega
 </title>
 
-    <link rel="canonical" href="https://sernobrega.github.io/posts/hugo-template-primer/">
+    <link rel="canonical" href="https://sernobrega.com/posts/hugo-template-primer/">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
@@ -23,17 +23,17 @@
     
       
       
-      <link rel="stylesheet" href="https://sernobrega.github.io/css/coder.min.c7705acbd87138b3693c4ef87936c7d0847ec99ca9049d2fa8de76773642b8b1.css" integrity="sha256-x3Bay9hxOLNpPE74eTbH0IR&#43;yZypBJ0vqN52dzZCuLE=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://sernobrega.com/css/coder.min.8a003a3455e58cb454e04a849227d8b321ef502faad797c6f73a95eb1abd351c.css" integrity="sha256-igA6NFXljLRU4EqEkifYsyHvUC&#43;q15fG9zqV6xq9NRw=" crossorigin="anonymous" media="screen" />
     
 
     
 
     
-      <link rel="stylesheet" href="https://sernobrega.github.io/css/custom.css">
+      <link rel="stylesheet" href="https://sernobrega.com/css/custom.css">
     
 
-    <link rel="icon" type="image/png" href="https://sernobrega.github.io/img/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://sernobrega.github.io/img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://sernobrega.com/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sernobrega.com/img/favicon-16x16.png" sizes="16x16">
 
     
 
@@ -44,8 +44,8 @@
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://sernobrega.github.io">
-      tryhard
+    <a class="navigation-title" href="https://sernobrega.com">
+      Sérgio Nóbrega
     </a>
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
@@ -53,11 +53,11 @@
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://sernobrega.github.io/posts/">Blog</a>
+            <a class="navigation-link" href="https://sernobrega.com/posts/">Blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://sernobrega.github.io/about/">About</a>
+            <a class="navigation-link" href="https://sernobrega.com/about/">About</a>
           </li>
         
       
@@ -90,21 +90,21 @@
           </div>
           <div class="categories">
   <i class="fas fa-folder"></i>
-    <a href="https://sernobrega.github.io/categories/development">Development</a>
+    <a href="https://sernobrega.com/categories/development">Development</a>
       <span class="separator">•</span>
-    <a href="https://sernobrega.github.io/categories/golang">golang</a></div>
+    <a href="https://sernobrega.com/categories/golang">golang</a></div>
 
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="https://sernobrega.github.io/tags/go">go</a>
+    <a href="https://sernobrega.com/tags/go">go</a>
       <span class="separator">•</span>
-    <a href="https://sernobrega.github.io/tags/golang">golang</a>
+    <a href="https://sernobrega.com/tags/golang">golang</a>
       <span class="separator">•</span>
-    <a href="https://sernobrega.github.io/tags/templates">templates</a>
+    <a href="https://sernobrega.com/tags/templates">templates</a>
       <span class="separator">•</span>
-    <a href="https://sernobrega.github.io/tags/themes">themes</a>
+    <a href="https://sernobrega.com/tags/themes">themes</a>
       <span class="separator">•</span>
-    <a href="https://sernobrega.github.io/tags/development">development</a></div>
+    <a href="https://sernobrega.com/tags/development">development</a></div>
 
         </div>
       </header>
@@ -156,7 +156,7 @@ functions.</p>
 <p>Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="https://sernobrega.github.io/layout/variables">variables</a> page.</p>
+<a href="https://sernobrega.com/layout/variables">variables</a> page.</p>
 
 <p>A variable is accessed by referencing the variable name.</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;title&gt;{{ .Title }}&lt;/title&gt;</pre></div>
@@ -167,7 +167,7 @@ page you are rendering. More details are available on the
 
 <p>Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="https://sernobrega.github.io/layout/functions">Hugo template
+available functions with their own. <a href="https://sernobrega.com/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -307,7 +307,7 @@ you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="https://sernobrega.github.io/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="https://sernobrega.com/content/front-matter">front matter</a>.</p>
 
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just

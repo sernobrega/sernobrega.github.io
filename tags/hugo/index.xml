@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on tryhard</title>
-    <link>https://sernobrega.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on tryhard</description>
+    <title>Hugo on Sérgio Nóbrega</title>
+    <link>https://sernobrega.com/tags/hugo/</link>
+    <description>Recent content in Hugo on Sérgio Nóbrega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sernobrega.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sernobrega.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://sernobrega.github.io/posts/hugoisforlovers/</link>
+      <link>https://sernobrega.com/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://sernobrega.github.io/posts/hugoisforlovers/</guid>
+      <guid>https://sernobrega.com/posts/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo

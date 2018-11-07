@@ -3,28 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sernobrega.github.io/post/hello/</loc>
+    <loc>https://sernobrega.com/post/hello/</loc>
     <lastmod>2018-11-07T08:03:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sernobrega.github.io/categories/</loc>
+    <loc>https://sernobrega.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sernobrega.github.io/post/</loc>
+    <loc>https://sernobrega.com/post/</loc>
     <lastmod>2018-11-07T08:03:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sernobrega.github.io/tags/</loc>
+    <loc>https://sernobrega.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sernobrega.github.io/</loc>
+    <loc>https://sernobrega.com/</loc>
     <lastmod>2018-11-07T08:03:15+00:00</lastmod>
     <priority>0</priority>
   </url>

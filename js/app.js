@@ -6,7 +6,7 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".
 var textArray = [
-  "Computer Science Student"
+  $(".output").attr("text")
 ];
 
 // Speed (in milliseconds) of typing.
@@ -86,3 +86,11 @@ function typeWriter(id, ar) {
     }
   }
 }
+
+$(".avatar img")
+  .on( "mouseenter", function() {
+     $(this).attr("src", $(this).data('hover-src'));
+ })
+ .on( "mouseleave", function() {
+     $(this).attr("src", $(this).data('normal-src'));
+});

@@ -6,12 +6,14 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".
 var textArray = [
-  $(".output").attr("text")
+  "Hi! I'm Sérgio!",
+  $(".output").attr("text"),
+  "Welcome to my page :)"
 ];
 
 // Speed (in milliseconds) of typing.
 var speedForward = 100, //Typing Speed
-    speedWait = 1000, // Wait between typing and backspacing
+    speedWait = 1500, // Wait between typing and backspacing
     speedBetweenLines = 1000, //Wait between first and second lines
     speedBackspace = 25; //Backspace Speed
 
@@ -53,8 +55,15 @@ function typeWriter(id, ar) {
     // If full string has been typed, switch to backspace mode.
     } else if (i == aString.length) {
 
-      isBackspacing = false;
-      setTimeout(function(){ typeWriter(id, ar); }, speedWait);
+      if(a == ar.length - 1){
+        isBackspacing = false;
+        headTilt();
+      }
+      else {
+        isBackspacing = true;
+        setTimeout(function(){ typeWriter(id, ar); }, speedWait);
+      }
+
 
     }
 
@@ -87,10 +96,16 @@ function typeWriter(id, ar) {
   }
 }
 
+//Tilted avatar head
+function headTilt() {
+  $(".avatar img").attr("src", $(".avatar img").data('hover-src'));
+  setTimeout(function(){
+    $(".avatar img").attr("src", $(".avatar img").data('normal-src'));
+},1000);
+}
+
+//Tilt when hovered
 $(".avatar img")
   .on( "mouseenter", function() {
-     $(this).attr("src", $(this).data('hover-src'));
- })
- .on( "mouseleave", function() {
-     $(this).attr("src", $(this).data('normal-src'));
-});
+     headTilt();
+ });

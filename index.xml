@@ -139,11 +139,9 @@ Follow the following steps:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sernobrega.com/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
-Setup Some fun facts about Hugo:
- Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
+      <description>Hello there!
+I&amp;rsquo;m Sérgio. I grew up in a small Portuguese island and moved to Lisbon to study Computer Science and Engineering at Instituto Superior Técnico, where I am currently finishing my bachelors. My main interests are machine learning, data science, analytics and visualisation.
+In my first semester of university, I joined the Board of European Students of Technology where I ended up being in the local board of Lisbon as Vice-President for Internal Support (May 2017 - May 2018).</description>
     </item>
     
   </channel>
